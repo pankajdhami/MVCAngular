@@ -1,0 +1,25 @@
+﻿<html ng-app="AngularApp">
+<head>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/ui-bootstrap-csp.css" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-1.10.2.js"></script>
+    <script src="~/Scripts/angular.js"></script>
+    <script src="~/Scripts/angular-route.js"></script>
+    <script src="~/Scripts/angular-ui/ui-bootstrap-tpls.js"></script>
+    <script src="~/Scripts/angular-ui/ui-bootstrap.js"></script>
+    <script src="~/App/App.js"></script>
+    <script src="~/App/Controllers/IndexController.js"></script>
+    <script src="~/App/Directives/CustomDirectives.js"></script>
+</head>
+<body class="container" ng-controller="IndexController">
+
+    {{1+1}}
+    <list-container resource="/Home/GetListItems">
+       
+    </list-container>
+    <value-one>
+
+    </value-one>  
+</body>
+</html>
